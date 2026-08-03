@@ -6,10 +6,6 @@ My personal portfolio website showcasing my projects, skills, and experience.
 - HTML5
 - CSS3
 - JavaScript
-- Photoshop
-- Canva
-- Kotlin
-- React
 
 ## Features
 - Responsive Design
