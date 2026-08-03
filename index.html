@@ -1,0 +1,758 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Primary SEO Meta Tags -->
+    <title>Farhan Ahmed — Graphic Designer, Web Developer & Android Developer</title>
+    <meta name="title" content="Farhan Ahmed — Graphic Designer, Web Developer & Android Developer">
+    <meta name="description"
+        content="Portfolio of Farhan Ahmed, specializing in Visual Brand Identity, Modern Web Development (HTML/CSS/JS/React), and Native Android App Development (Kotlin).">
+    <meta name="author" content="Farhan Ahmed">
+    <meta name="keywords"
+        content="Graphic Designer, Web Developer, Android App Developer, Kotlin, React, JavaScript, Farhan Ahmed">
+
+    <!-- Open Graph / Social Media -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Farhan Ahmed — Developer & Designer Portfolio">
+    <meta property="og:description"
+        content="Crafting Web Apps, Native Android Applications.    ">
+    <meta property="og:image" content="project images/LOGO.png">
+
+    <!-- Fonts & Icons -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&family=Syne:wght@500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Ambient Glowing Background Canvas -->
+    <div class="bg-ambient">
+        <div class="glow-orb glow-orb-1"></div>
+        <div class="glow-orb glow-orb-2"></div>
+        <div class="glow-orb glow-orb-3"></div>
+    </div>
+
+    <!-- Floating Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-brand">
+            <img src="photo.jpeg" alt="Farhan Ahmed Profile" class="brand-avatar">
+            <div class="brand-info">
+                <span class="brand-name">FARHAN AHMED</span>
+                <span class="brand-role">Designer & Developer</span>
+            </div>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#hero" class="nav-link active">Home</a></li>
+            <li><a href="#portfolio" class="nav-link">Work</a></li>
+            <li><a href="#process" class="nav-link">Process</a></li>
+            <li><a href="#skills" class="nav-link">Skills</a></li>
+            <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+        <div class="nav-actions">
+            <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">
+                <i class="fas fa-bars"></i>
+            </button>
+            <a href="#contact" class="btn btn-primary">
+                Hire Me <i class="fas fa-arrow-right"></i>
+            </a>
+        </div>
+    </nav>
+
+    <!-- Main Content Container -->
+    <main>
+        <!-- Hero Section -->
+        <section id="hero" class="hero">
+            <div class="container hero-grid">
+                <div class="hero-content">
+                    <div class="hero-status-badge">
+                        <span class="status-dot"></span>
+                        Available for Web, Mobile & Design Projects
+                    </div>
+                    <h1 class="hero-title">
+                        Crafting <span class="text-gradient">Web Apps, Android Apps</span> & Bold Identities.
+                    </h1>
+                    <p class="hero-desc">
+                        Hi, I'm Farhan Ahmed — a Full-Spectrum Developer & Graphic Designer specializing in modern Web Development (HTML/CSS/JS/React), Native Android Applications (Kotlin/Java), and high-impact visual Brand Identities.
+                    </p>
+                    <div class="hero-cta">
+                        <a href="#portfolio" class="btn btn-primary">
+                            Explore Showcase <i class="fas fa-compass"></i>
+                        </a>
+                        <a href="#contact" class="btn btn-outline">
+                            Estimate Project <i class="fas fa-calculator"></i>
+                        </a>
+                    </div>
+                    <div class="hero-stats">
+                        <div class="stat-item">
+                            <div class="stat-number">50+</div>
+                            <div class="stat-label">Brand & Visual Assets</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">15+</div>
+                            <div class="stat-label">Web & Android Apps</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">99%</div>
+                            <div class="stat-label">Client Satisfaction</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Hero Visual Card Frame -->
+                <div class="hero-visual">
+                    <div class="hero-card-frame">
+                        <img src="photo.jpeg" alt="Farhan Ahmed Portrait" class="hero-card-img">
+                        <div class="floating-badge badge-top-right">
+                            <div class="badge-icon"><i class="fab fa-android"></i></div>
+                            <div>
+                                <div class="badge-text-title">Android & Web Dev</div>
+                                <div class="badge-text-sub">Kotlin, React & JS</div>
+                            </div>
+                        </div>
+                        <div class="floating-badge badge-bottom-left">
+                            <div class="badge-icon"><i class="fas fa-pen-nib"></i></div>
+                            <div>
+                                <div class="badge-text-title">Graphic Designer</div>
+                                <div class="badge-text-sub">Branding & Logo Suite</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Portfolio Showcase Section -->
+        <section id="portfolio" class="portfolio-section">
+            <div class="container">
+                <span class="section-tag">Curated Works</span>
+                <h2 class="section-title">Featured Development & Design Projects</h2>
+                <p class="section-subtitle">
+                    Explore a collection of modern Web Applications, native Android Apps, visual Brand Identities, and custom emblem graphics.
+                </p>
+                </p>
+
+                <!-- Filter Category Tabs -->
+                <div class="portfolio-filter">
+                    <button class="filter-btn active" data-filter="all">All Projects</button>
+                    <button class="filter-btn" data-filter="web">Web Development</button>
+                    <button class="filter-btn" data-filter="android">Android Apps</button>
+                    <button class="filter-btn" data-filter="branding">Branding & Identity</button>
+                    <button class="filter-btn" data-filter="editorial">Typography & Posters</button>
+                    <button class="filter-btn" data-filter="gaming">Gaming Logos</button>
+                </div>
+
+                <!-- Portfolio Grid -->
+                <div class="portfolio-grid">
+
+                    <!-- Web Dev Card -->
+                    <div class="portfolio-card" data-category="web" data-project-id="web_dev_project">
+                        <div class="card-img-wrapper">
+                            <img src="project images/banner 2.jpg" alt="Interactive Web Application" class="card-img">
+                            <div class="card-overlay">
+                                <span class="view-project-btn">
+                                    View Details <i class="fas fa-expand-alt"></i>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <div class="card-tags">
+                                <span class="card-tag">Web App</span>
+                                <span class="card-tag">HTML / CSS / JS / React</span>
+                            </div>
+                            <h3 class="card-title">Interactive SaaS & Web App</h3>
+                            <p class="card-subtitle">Modern, responsive single-page web app with glassmorphism UI & custom CSS.</p>
+                            <div class="card-meta">
+                                <span><i class="fas fa-laptop-code"></i> NovaTech Solutions</span>
+                                <span>2025</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Android App Card -->
+                    <div class="portfolio-card" data-category="android" data-project-id="android_app_project">
+                        <div class="card-img-wrapper">
+                            <img src="project images/dark logo.jpg" alt="Native Android Mobile Suite" class="card-img">
+                            <div class="card-overlay">
+                                <span class="view-project-btn">
+                                    View Details <i class="fas fa-expand-alt"></i>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <div class="card-tags">
+                                <span class="card-tag">Android App</span>
+                                <span class="card-tag">Kotlin / Material Design</span>
+                            </div>
+                            <h3 class="card-title">Native Android Mobile Suite</h3>
+                            <p class="card-subtitle">High-performance native Android application with offline sync & Material 3 UI.</p>
+                            <div class="card-meta">
+                                <span><i class="fab fa-android"></i> Pulse Mobile Suite</span>
+                                <span>2025</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card 1: Dragon Logo -->
+                    <div class="portfolio-card" data-category="gaming" data-project-id="dragon_logo">
+                        <div class="card-img-wrapper">
+                            <img src="project images/Black and Red Dragon Gaming Company Logo.png"
+                                alt="Black & Red Dragon Gaming Emblem" class="card-img">
+                            <div class="card-overlay">
+                                <span class="view-project-btn">
+                                    View Details <i class="fas fa-expand-alt"></i>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <div class="card-tags">
+                                <span class="card-tag">Esports Emblem</span>
+                                <span class="card-tag">Mascot Logo</span>
+                            </div>
+                            <h3 class="card-title">Black & Red Dragon Gaming Emblem</h3>
+                            <p class="card-subtitle">Aggressive vector dragon mascot emblem for competitive esports.</p>
+                            <div class="card-meta">
+                                <span><i class="fas fa-gamepad"></i> Dragon Gaming Co.</span>
+                                <span>2025</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card 2: Poster 1 -->
+                    <div class="portfolio-card" data-category="editorial" data-project-id="poster_1">
+                        <div class="card-img-wrapper">
+                            <img src="project images/poster 1.jpg" alt="Promotional Poster Graphic Series"
+                                class="card-img">
+                            <div class="card-overlay">
+                                <span class="view-project-btn">
+                                    View Details <i class="fas fa-expand-alt"></i>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <div class="card-tags">
+                                <span class="card-tag">Poster Design</span>
+                                <span class="card-tag">Typography</span>
+                            </div>
+                            <h3 class="card-title">Promotional Event Poster</h3>
+                            <p class="card-subtitle">High-impact event promotional poster with bold typography.</p>
+                            <div class="card-meta">
+                                <span><i class="far fa-calendar"></i> Creative Events</span>
+                                <span>2025</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card 3: ED Logo -->
+                    <div class="portfolio-card" data-category="branding" data-project-id="ed_logo">
+                        <div class="card-img-wrapper">
+                            <img src="project images/ED LOGO.jpg" alt="ED Monogram Emblem" class="card-img">
+                            <div class="card-overlay">
+                                <span class="view-project-btn">
+                                    View Details <i class="fas fa-expand-alt"></i>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <div class="card-tags">
+                                <span class="card-tag">Monogram</span>
+                                <span class="card-tag">Brand Identity</span>
+                            </div>
+                            <h3 class="card-title">ED Monogram Emblem</h3>
+                            <p class="card-subtitle">Bespoke monogram emblem incorporating elegant lettermark geometry.
+                            </p>
+                            <div class="card-meta">
+                                <span><i class="far fa-building"></i> ED Brand Enterprise</span>
+                                <span>2025</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card 4: LOGO.png -->
+                    <div class="portfolio-card" data-category="branding" data-project-id="logo_png">
+                        <div class="card-img-wrapper">
+                            <img src="project images/LOGO.png" alt="Modern Vector Brandmark" class="card-img">
+                            <div class="card-overlay">
+                                <span class="view-project-btn">
+                                    View Details <i class="fas fa-expand-alt"></i>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <div class="card-tags">
+                                <span class="card-tag">Vector Logo</span>
+                                <span class="card-tag">Identity</span>
+                            </div>
+                            <h3 class="card-title">Modern Vector Brandmark</h3>
+                            <p class="card-subtitle">Clean, modern vector logo design for universal brand application.
+                            </p>
+                            <div class="card-meta">
+                                <span><i class="fas fa-award"></i> Apex Enterprise</span>
+                                <span>2024</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card 5: Banner 2 -->
+                    <div class="portfolio-card" data-category="editorial" data-project-id="banner_2">
+                        <div class="card-img-wrapper">
+                            <img src="project images/banner 2.jpg" alt="Promotional Banner Graphic" class="card-img">
+                            <div class="card-overlay">
+                                <span class="view-project-btn">
+                                    View Details <i class="fas fa-expand-alt"></i>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <div class="card-tags">
+                                <span class="card-tag">Banner Design</span>
+                                <span class="card-tag">Key Visual</span>
+                            </div>
+                            <h3 class="card-title">Promotional Banner Key Visual</h3>
+                            <p class="card-subtitle">Large-format promotional banner graphic for marketing campaigns.
+                            </p>
+                            <div class="card-meta">
+                                <span><i class="fas fa-bullhorn"></i> Vanguard Marketing</span>
+                                <span>2025</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card 6: Dark Logo -->
+                    <div class="portfolio-card" data-category="branding" data-project-id="dark_logo">
+                        <div class="card-img-wrapper">
+                            <img src="project images/dark logo.jpg" alt="Dark Theme Emblem & Identity" class="card-img">
+                            <div class="card-overlay">
+                                <span class="view-project-btn">
+                                    View Details <i class="fas fa-expand-alt"></i>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <div class="card-tags">
+                                <span class="card-tag">Dark Mode Mark</span>
+                                <span class="card-tag">Luxury Emblem</span>
+                            </div>
+                            <h3 class="card-title">Dark Theme Emblem & Identity</h3>
+                            <p class="card-subtitle">Dark mode brand identity emblem showcasing deep contrast backdrop.
+                            </p>
+                            <div class="card-meta">
+                                <span><i class="fas fa-moon"></i> Nocturne Studio</span>
+                                <span>2024</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card 7: S Logo -->
+                    <div class="portfolio-card" data-category="branding" data-project-id="s_logo">
+                        <div class="card-img-wrapper">
+                            <img src="project images/s logo.jpg" alt="Stylized Lettermark S Logo" class="card-img">
+                            <div class="card-overlay">
+                                <span class="view-project-btn">
+                                    View Details <i class="fas fa-expand-alt"></i>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <div class="card-tags">
+                                <span class="card-tag">Lettermark</span>
+                                <span class="card-tag">Logo Icon</span>
+                            </div>
+                            <h3 class="card-title">Stylized Lettermark 'S' Logo</h3>
+                            <p class="card-subtitle">Custom geometric lettermark 'S' with fluid curves and modern
+                                balance.</p>
+                            <div class="card-meta">
+                                <span><i class="fas fa-shapes"></i> Synergy Tech</span>
+                                <span>2025</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card 8: Logo Bus -->
+                    <div class="portfolio-card" data-category="branding" data-project-id="logo_bus">
+                        <div class="card-img-wrapper">
+                            <img src="project images/logo bus.jpg" alt="Transit & Fleet Brand Application"
+                                class="card-img">
+                            <div class="card-overlay">
+                                <span class="view-project-btn">
+                                    View Details <i class="fas fa-expand-alt"></i>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <div class="card-tags">
+                                <span class="card-tag">Fleet Mockup</span>
+                                <span class="card-tag">Transit Graphic</span>
+                            </div>
+                            <h3 class="card-title">Transit & Fleet Branding</h3>
+                            <p class="card-subtitle">Real-world vehicle mockup displaying corporate logo application.
+                            </p>
+                            <div class="card-meta">
+                                <span><i class="fas fa-bus"></i> Metro Transport</span>
+                                <span>2024</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Design Process Section -->
+        <section id="process">
+            <div class="container">
+                <span class="section-tag">Methodology</span>
+                <h2 class="section-title">My Creative Process</h2>
+                <p class="section-subtitle">
+                    A structured 4-step workflow that turns vision into high-impact graphic design deliverables.
+                </p>
+
+                <div class="process-grid">
+                    <div class="process-card">
+                        <div class="process-step">01</div>
+                        <h3 class="process-title">Discovery & Strategy</h3>
+                        <p class="process-desc">Understanding client goals, target audience demographics, competitive
+                            visual landscape, and core message architecture.</p>
+                    </div>
+
+                    <div class="process-card">
+                        <div class="process-step">02</div>
+                        <h3 class="process-title">Concept & Moodboards</h3>
+                        <p class="process-desc">Exploring typographic directions, color psychology, composition grids,
+                            and compiling visual reference boards.</p>
+                    </div>
+
+                    <div class="process-card">
+                        <div class="process-step">03</div>
+                        <h3 class="process-title">Crafting & Refinement</h3>
+                        <p class="process-desc">Vectors, 3D models, layout typography, and high-fidelity mockups crafted
+                            meticulously in Adobe Creative Suite & Blender.</p>
+                    </div>
+
+                    <div class="process-card">
+                        <div class="process-step">04</div>
+                        <h3 class="process-title">Delivery & Guidelines</h3>
+                        <p class="process-desc">Handing over print-ready vector files, digital assets, brand guideline
+                            manuals, and scalable asset kits.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills & Software Stack Section -->
+        <section id="skills" style="background: var(--bg-surface);">
+            <div class="container">
+                <span class="section-tag">Capabilities</span>
+                <h2 class="section-title">Development & Design Expertise</h2>
+                <p class="section-subtitle">Proficiency across Web Development frameworks, Native Android SDKs, and Graphic Design tools.</p>
+
+                <div class="skills-grid">
+                    <!-- Core Disciplines -->
+                    <div>
+                        <h3 class="skill-category-title"><i class="fas fa-layer-group"
+                                style="color: var(--accent-cyan);"></i> Core Engineering & Design</h3>
+                        <div class="skill-bar-group">
+                            <div class="skill-bar-item">
+                                <div class="skill-info"><span>Web Development (HTML / CSS / JS / React)</span><span>95%</span></div>
+                                <div class="skill-track">
+                                    <div class="skill-progress" style="width: 95%;"></div>
+                                </div>
+                            </div>
+                            <div class="skill-bar-item">
+                                <div class="skill-info"><span>Android App Development (Kotlin / SDK)</span><span>92%</span></div>
+                                <div class="skill-track">
+                                    <div class="skill-progress" style="width: 92%;"></div>
+                                </div>
+                            </div>
+                            <div class="skill-bar-item">
+                                <div class="skill-info"><span>Brand Identity & Vector Logo Design</span><span>98%</span></div>
+                                <div class="skill-track">
+                                    <div class="skill-progress" style="width: 98%;"></div>
+                                </div>
+                            </div>
+                            <div class="skill-bar-item">
+                                <div class="skill-info"><span>UI/UX Design & Mobile Wireframing</span><span>90%</span></div>
+                                <div class="skill-track">
+                                    <div class="skill-progress" style="width: 90%;"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Tech & Software Badges -->
+                    <div>
+                        <h3 class="skill-category-title"><i class="fas fa-laptop-code"
+                                style="color: var(--accent-purple);"></i> Tech Stack & Software</h3>
+                        <div class="software-grid">
+                            <div class="software-badge">
+                                <i class="fab fa-android software-icon"></i>
+                                <span class="software-name">Android Studio</span>
+                            </div>
+                            <div class="software-badge">
+                                <i class="fas fa-code software-icon"></i>
+                                <span class="software-name">Kotlin / Java</span>
+                            </div>
+                            <div class="software-badge">
+                                <i class="fab fa-js-square software-icon"></i>
+                                <span class="software-name">JavaScript</span>
+                            </div>
+                            <div class="software-badge">
+                                <i class="fab fa-react software-icon"></i>
+                                <span class="software-name">React</span>
+                            </div>
+                            <div class="software-badge">
+                                <i class="fab fa-html5 software-icon"></i>
+                                <span class="software-name">HTML5 / CSS3</span>
+                            </div>
+                            <div class="software-badge">
+                                <i class="fas fa-bezier-curve software-icon"></i>
+                                <span class="software-name">Illustrator</span>
+                            </div>
+                            <div class="software-badge">
+                                <i class="fas fa-photo-video software-icon"></i>
+                                <span class="software-name">Photoshop</span>
+                            </div>
+                            <div class="software-badge">
+                                <i class="fab fa-figma software-icon"></i>
+                                <span class="software-name">Figma</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Contact Studio & Budget Estimator -->
+        <section id="contact" style="background: var(--bg-surface);">
+            <div class="container contact-grid">
+                <!-- Info Column -->
+                <div>
+                    <span class="section-tag">Get In Touch</span>
+                    <h2 class="section-title">Let's Create Something Iconic.</h2>
+                    <p class="section-subtitle">
+                        Have a brand identity project, packaging design, or 3D visual concept in mind? Fill out the form
+                        or email directly.
+                    </p>
+
+                    <div class="contact-info-list">
+                        <div class="info-item">
+                            <div class="info-icon"><i class="fas fa-envelope"></i></div>
+                            <div>
+                                <div class="info-label">Direct Email</div>
+                                <div class="info-value">farhan.design@studio.com</div>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <div class="info-icon"><i class="fas fa-map-marker-alt"></i></div>
+                            <div>
+                                <div class="info-label">Location / Timezone</div>
+                                <div class="info-value">Worldwide Remote (UTC +5:30)</div>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <div class="info-icon"><i class="fas fa-clock"></i></div>
+                            <div>
+                                <div class="info-label">Response Time</div>
+                                <div class="info-value">Within 24 Hours</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="social-links">
+                        <a href="https://behance.net" target="_blank" class="social-btn" title="Behance"><i
+                                class="fab fa-behance"></i></a>
+                        <a href="https://dribbble.com" target="_blank" class="social-btn" title="Dribbble"><i
+                                class="fab fa-dribbble"></i></a>
+                        <a href="https://instagram.com" target="_blank" class="social-btn" title="Instagram"><i
+                                class="fab fa-instagram"></i></a>
+                        <a href="https://linkedin.com" target="_blank" class="social-btn" title="LinkedIn"><i
+                                class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+
+                <!-- Form Column -->
+                <div class="contact-form-card">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label class="form-label" for="senderName">Your Name</label>
+                            <input type="text" id="senderName" class="form-input" placeholder="e.g. Alex Morgan"
+                                required>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="form-label" for="senderEmail">Email Address</label>
+                            <input type="email" id="senderEmail" class="form-input" placeholder="alex@company.com"
+                                required>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="form-label">Services Required</label>
+                            <div class="service-options">
+                                <div class="service-chip selected">Web App Dev</div>
+                                <div class="service-chip">Android App Dev</div>
+                                <div class="service-chip">Brand Identity</div>
+                                <div class="service-chip">UI/UX Design</div>
+                            </div>
+                        </div>
+
+                        <div class="form-group budget-range-wrap">
+                            <div style="display: flex; justify-content: space-between;">
+                                <label class="form-label">Estimated Budget</label>
+                                <span class="budget-val" id="budgetValue">$250</span>
+                            </div>
+                            <input type="range" id="budgetRange" min="10" max="1000" step="10" value="250"
+                                style="accent-color: var(--accent-cyan);">
+                        </div>
+
+                        <div class="form-group">
+                            <label class="form-label" for="projectMsg">Project Brief / Message</label>
+                            <textarea id="projectMsg" class="form-textarea" rows="4"
+                                placeholder="Tell me about your project scope, timeline, and deliverables..."
+                                required></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary" style="width: 100%; margin-top: 1rem;">
+                            Send Inquiry <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-content">
+            <div class="nav-brand">
+                <img src="photo.jpeg" alt="Farhan Ahmed" class="brand-avatar" style="width: 32px; height: 32px;">
+                <span class="brand-name" style="font-size: 0.95rem;">FARHAN AHMED</span>
+            </div>
+            <div class="footer-text">
+                © 2026 Farhan Ahmed. All rights reserved. Graphic Design Portfolio.
+            </div>
+        </div>
+    </footer>
+
+    <!-- Lightbox Detail Modal for Portfolio Items -->
+    <div class="modal-backdrop" id="projectModal">
+        <div class="modal-card">
+            <button class="modal-close-btn" id="modalCloseBtn"><i class="fas fa-times"></i></button>
+            <img src="" alt="Project Banner" class="modal-header-banner" id="modalBanner">
+            <div class="modal-body">
+                <div
+                    style="display: flex; justify-content: space-between; align-items: flex-start; gap: 1rem; flex-wrap: wrap; margin-bottom: 1rem;">
+                    <div>
+                        <span class="card-tag" id="modalCategory"
+                            style="margin-bottom: 0.5rem; display: inline-block;">Category</span>
+                        <h2 id="modalTitle" style="font-family: var(--font-display); font-size: 2rem;">Project Title
+                        </h2>
+                        <div id="modalClient" style="color: var(--text-muted); font-size: 0.95rem;">Client Name</div>
+                    </div>
+                    <div
+                        style="background: rgba(0, 242, 254, 0.1); border: 1px solid var(--border-glow); padding: 0.6rem 1rem; border-radius: var(--radius-md);">
+                        <span
+                            style="font-size: 0.75rem; color: var(--accent-cyan); display: block; text-transform: uppercase;">Impact
+                            Result</span>
+                        <span id="modalStats" style="font-weight: 700; font-size: 0.95rem;">Key Achievement</span>
+                    </div>
+                </div>
+
+                <div style="margin-top: 1.5rem; margin-bottom: 2rem;">
+                    <h4 style="font-family: var(--font-display); font-size: 1.1rem; margin-bottom: 0.5rem;">Project
+                        Overview & Strategy</h4>
+                    <p id="modalOverview" style="color: var(--text-muted); line-height: 1.7;">Overview description...
+                    </p>
+                </div>
+
+                <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; margin-bottom: 2rem;">
+                    <div>
+                        <h4 style="font-family: var(--font-display); font-size: 1.1rem; margin-bottom: 0.8rem;">
+                            Deliverables Included</h4>
+                        <ul id="modalDeliverables"
+                            style="list-style: none; display: flex; flex-direction: column; gap: 0.5rem; color: var(--text-muted); font-size: 0.95rem;">
+                        </ul>
+                    </div>
+                    <div>
+                        <h4 style="font-family: var(--font-display); font-size: 1.1rem; margin-bottom: 0.8rem;">Tools &
+                            Tech Used</h4>
+                        <div id="modalTools" style="display: flex; gap: 0.5rem; flex-wrap: wrap;"></div>
+                    </div>
+                </div>
+
+                <div>
+                    <h4 style="font-family: var(--font-display); font-size: 1.1rem; margin-bottom: 0.8rem;">Brand Color
+                        Palette (Click code to copy)</h4>
+                    <div id="modalPalette" class="swatch-grid" style="margin-top: 0.5rem;"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Resume / CV Modal -->
+    <div class="modal-backdrop" id="cvModal">
+        <div class="modal-card" style="max-width: 750px;">
+            <button class="modal-close-btn" id="cvModalCloseBtn"><i class="fas fa-times"></i></button>
+            <div class="modal-body" style="padding-top: 3rem;">
+                <div style="display: flex; align-items: center; gap: 1.2rem; margin-bottom: 2rem;">
+                    <img src="photo.jpeg" alt="Farhan Ahmed"
+                        style="width: 70px; height: 70px; border-radius: 50%; border: 3px solid var(--accent-cyan);">
+                    <div>
+                        <h2 style="font-family: var(--font-display); font-size: 1.8rem;">Farhan Ahmed</h2>
+                        <p style="color: var(--accent-cyan); font-weight: 600;">Web Developer • Android App Developer • Graphic Designer
+                        </p>
+                    </div>
+                </div>
+
+                <div style="margin-bottom: 2rem;">
+                    <h3
+                        style="font-family: var(--font-display); border-bottom: 1px solid var(--border-light); padding-bottom: 0.5rem; margin-bottom: 1rem;">
+                        Experience</h3>
+                    <div style="display: flex; flex-direction: column; gap: 1.2rem;">
+                        <div>
+                            <div style="display: flex; justify-content: space-between; font-weight: 700;">
+                                <span>Senior Web & Android Developer — NovaTech Studio</span>
+                                <span style="color: var(--accent-cyan);">2022 — Present</span>
+                            </div>
+                            <p style="color: var(--text-muted); font-size: 0.9rem;">Architecting responsive single-page web applications (React, HTML/CSS/JS) and native Android mobile applications (Kotlin, Java).</p>
+                        </div>
+                        <div>
+                            <div style="display: flex; justify-content: space-between; font-weight: 700;">
+                                <span>Lead Graphic Designer & UI/UX Specialist — Apex Creative</span>
+                                <span style="color: var(--accent-cyan);">2019 — 2022</span>
+                            </div>
+                            <p style="color: var(--text-muted); font-size: 0.9rem;">Crafted high-impact visual brand identities, vector logos, mobile app UI/UX, and marketing graphics.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div style="margin-bottom: 2rem;">
+                    <h3
+                        style="font-family: var(--font-display); border-bottom: 1px solid var(--border-light); padding-bottom: 0.5rem; margin-bottom: 1rem;">
+                        Education & Certifications</h3>
+                    <ul
+                        style="list-style: none; color: var(--text-muted); display: flex; flex-direction: column; gap: 0.5rem; font-size: 0.92rem;">
+                        <li><i class="fas fa-graduation-cap" style="color: var(--accent-cyan);"></i> B.S. in Computer Science & Communication Design</li>
+                        <li><i class="fab fa-android" style="color: var(--accent-cyan);"></i> Certified Android Application Developer (Kotlin & Java)</li>
+                        <li><i class="fas fa-certificate" style="color: var(--accent-cyan);"></i> Full-Stack Web Development & Graphic Design Specialist</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main JavaScript Engine -->
+    <script src="main.js"></script>
+</body>
+
+</html>
