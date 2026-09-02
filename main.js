@@ -5,36 +5,36 @@
 
 // Portfolio Detailed Database
 const PROJECTS_DATA = {
-  'web_dev_project': {
-    title: "Interactive SaaS & Modern Web Application",
-    client: "NovaTech Solutions",
+  'banner_design': {
+    title: "Blue Promotional Banner",
+    client: "Creative Campaigns",
     year: "2025",
-    category: "Web Development",
-    image: "project images/banner 2.jpg",
-    overview: "Modern, responsive single-page web application featuring custom CSS design systems, dynamic state management, glassmorphism UI, and lightning-fast performance.",
-    deliverables: ["Responsive Web App", "Interactive UI Dashboard", "REST API Integration", "SEO & Speed Optimization"],
-    palette: ["#38BDF8", "#FF003C", "#0F172A", "#FFFFFF"],
-    tools: ["HTML5 / CSS3", "JavaScript", "React", "Node.js"],
-    stats: "99.8% Lighthouse Performance Score"
+    category: "Graphic Design",
+    image: "design projects/banner.png",
+    overview: "Clean promotional banner design built around a bold blue visual direction and clear campaign composition.",
+    deliverables: ["Banner Artwork", "Campaign Key Visual", "Digital Display Graphic"],
+    palette: ["#38BDF8", "#0284C7", "#0F2742", "#FFFFFF"],
+    tools: ["Adobe Photoshop", "Adobe Illustrator"],
+    stats: "Promotional campaign visual"
   },
-  'android_app_project': {
-    title: "Native Android Mobile Application",
-    client: "Pulse Mobile Suite",
+  'banner_artwork': {
+    title: "Creative Campaign Artwork",
+    client: "Visual Studio",
     year: "2025",
-    category: "Android Apps",
-    image: "project images/dark logo.jpg",
-    overview: "High-performance native Android application engineered with Kotlin, Android SDK, Material Design 3 guidelines, offline-first sync, and smooth animations.",
-    deliverables: ["APK & AAB Bundles", "Native Android UI/UX", "Firebase Backend Integration", "Google Play Store Ready"],
-    palette: ["#38BDF8", "#EF4444", "#07090E", "#F8FAFC"],
-    tools: ["Android Studio", "Kotlin / Java", "Jetpack Compose", "Material Design"],
-    stats: "Over 20,000+ Active Android Installs"
+    category: "Graphic Design",
+    image: "design projects/bannr.jpg",
+    overview: "Distinctive campaign artwork composed for digital promotion, display graphics, and visual storytelling.",
+    deliverables: ["Campaign Artwork", "Digital Display Graphic", "Social Media Visual"],
+    palette: ["#38BDF8", "#1D4ED8", "#0F2742", "#FFFFFF"],
+    tools: ["Adobe Photoshop", "Adobe Illustrator"],
+    stats: "Digital campaign artwork"
   },
   'dragon_logo': {
     title: "Black & Red Dragon Gaming Emblem",
     client: "Dragon Gaming Company",
     year: "2025",
     category: "Gaming Logos",
-    image: "project images/Black and Red Dragon Gaming Company Logo.png",
+    image: "design projects/Black and Red Dragon Gaming Company Logo.png",
     overview: "High-impact esports dragon mascot emblem featuring aggressive geometric linework, bold red and black vector contrast, and scalable branding assets.",
     deliverables: ["Vector Mascot Emblem", "Esports Jersey Vector", "Streaming Overlay Package"],
     palette: ["#FF003C", "#EF4444", "#0A0D14", "#FFFFFF"],
@@ -46,7 +46,7 @@ const PROJECTS_DATA = {
     client: "Creative Events Studio",
     year: "2025",
     category: "Typography & Editorial",
-    image: "project images/poster 1.jpg",
+    image: "design projects/poster 1.jpg",
     overview: "High-impact event promotional poster featuring bold typography, dynamic visual hierarchy, and vibrant color composition.",
     deliverables: ["A1/A0 Print Poster", "Social Media Key Visuals", "Digital Billboard Graphics"],
     palette: ["#FF003C", "#38BDF8", "#EF4444", "#0A0D14"],
@@ -58,7 +58,7 @@ const PROJECTS_DATA = {
     client: "ED Brand Enterprise",
     year: "2025",
     category: "Branding & Identity",
-    image: "project images/ED LOGO.jpg",
+    image: "design projects/ED LOGO.jpg",
     overview: "Bespoke monogram emblem logo incorporating elegant lettermark geometry and premium visual brand elements.",
     deliverables: ["Monogram Logo Mark", "Vector Asset Kit", "Brand Guidelines PDF"],
     palette: ["#EF4444", "#38BDF8", "#07090E", "#F8FAFC"],
@@ -70,7 +70,7 @@ const PROJECTS_DATA = {
     client: "Apex Enterprise",
     year: "2024",
     category: "Branding & Identity",
-    image: "project images/LOGO.png",
+    image: "design projects/LOGO.png",
     overview: "Clean, modern vector logo design engineered for high versatility across digital app icons, print collateral, and merchandise.",
     deliverables: ["Vector Logo Master", "Brand Mark Variants", "Iconography System"],
     palette: ["#38BDF8", "#FF003C", "#1E293B", "#FFFFFF"],
@@ -82,7 +82,7 @@ const PROJECTS_DATA = {
     client: "Vanguard Marketing",
     year: "2025",
     category: "Typography & Editorial",
-    image: "project images/banner 2.jpg",
+    image: "design projects/banner 2.jpg",
     overview: "Large-format promotional banner graphic featuring strong visual storytelling, balanced typography grid, and engaging call-to-action.",
     deliverables: ["Web Banner Display", "Social Campaign Graphic", "Print Banner Specs"],
     palette: ["#EF4444", "#38BDF8", "#0F172A", "#F8FAFC"],
@@ -94,7 +94,7 @@ const PROJECTS_DATA = {
     client: "Nocturne Studio",
     year: "2024",
     category: "Branding & Identity",
-    image: "project images/dark logo.jpg",
+    image: "design projects/dark logo.jpg",
     overview: "Dark mode brand identity emblem showcasing metallic highlights, deep contrast backdrop, and luxury typography.",
     deliverables: ["Dark Mode Emblem", "Social Avatar Kit", "Brand Stationery"],
     palette: ["#07090E", "#FF003C", "#38BDF8", "#94A3B8"],
@@ -106,7 +106,7 @@ const PROJECTS_DATA = {
     client: "Synergy Tech",
     year: "2025",
     category: "Branding & Identity",
-    image: "project images/s logo.jpg",
+    image: "design projects/s logo.jpg",
     overview: "Custom geometric lettermark 'S' designed with fluid curves, modern balance, and distinctive brand recognition.",
     deliverables: ["Lettermark Icon", "Favicon & App Icon", "Brand Color Specs"],
     palette: ["#38BDF8", "#EF4444", "#0F172A", "#FFFFFF"],
@@ -118,7 +118,7 @@ const PROJECTS_DATA = {
     client: "Metro Transport",
     year: "2024",
     category: "Branding & Identity",
-    image: "project images/logo bus.jpg",
+    image: "design projects/logo bus.jpg",
     overview: "Real-world vehicle fleet mockup showing logo application on commercial transit, bus wraps, and corporate transportation.",
     deliverables: ["Vehicle Wrap Vector", "Fleet Branding Guide", "Mockup Renders"],
     palette: ["#FF003C", "#38BDF8", "#1E293B", "#F8FAFC"],
@@ -132,7 +132,6 @@ document.addEventListener('DOMContentLoaded', () => {
   initMobileMenu();
   initPortfolioFilters();
   initProjectModals();
-  initContactForm();
   initCVModal();
 });
 
@@ -313,49 +312,6 @@ function initProjectModals() {
   function closeModal() {
     modalBackdrop.classList.remove('active');
     document.body.style.overflow = 'auto';
-  }
-}
-
-/* -------------------------------------------------------------------------- */
-/* Interactive Contact Form & Budget Calculator
-/* -------------------------------------------------------------------------- */
-function initContactForm() {
-  const serviceChips = document.querySelectorAll('.service-chip');
-  const budgetRange = document.getElementById('budgetRange');
-  const budgetDisplay = document.getElementById('budgetValue');
-  const contactForm = document.getElementById('contactForm');
-
-  // Service Selector Toggle
-  serviceChips.forEach(chip => {
-    chip.addEventListener('click', () => {
-      chip.classList.toggle('selected');
-    });
-  });
-
-  // Budget Range Display
-  if (budgetRange && budgetDisplay) {
-    budgetRange.addEventListener('input', (e) => {
-      const val = parseInt(e.target.value);
-      if (val >= 1000) {
-        budgetDisplay.textContent = '$1,000+';
-      } else {
-        budgetDisplay.textContent = `$${val.toLocaleString()}`;
-      }
-    });
-  }
-
-  // Form Submission
-  if (contactForm) {
-    contactForm.addEventListener('submit', (e) => {
-      e.preventDefault();
-      
-      const name = document.getElementById('senderName').value;
-      
-      showToast(`Thank you ${name}! Your inquiry has been sent to Farhan Ahmed.`);
-      contactForm.reset();
-      serviceChips.forEach(chip => chip.classList.remove('selected'));
-      if (budgetDisplay) budgetDisplay.textContent = '$250';
-    });
   }
 }
 
