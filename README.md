@@ -14,7 +14,7 @@ My personal portfolio website showcasing my projects, skills, and experience.
 - Contact Section
 
 ## Live Demo
-https://github.com/farhan-debugs/Personal-Portfolio
+https://farhan-debugs.github.io/Personal-Portfolio/
 
 ## Author
 FARHAN AHMED
